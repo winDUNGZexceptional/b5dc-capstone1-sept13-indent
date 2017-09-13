@@ -25,24 +25,43 @@
 </head>
 <body>
 	<header class="container-fluid">
-		
+		<div class="row">
+			<nav class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 navigation">
+				<!-- ADD FOR MOBILE AND TABLET HERE -->
+				<ul class="nav nav-pills text-center">
+				  <li class="navbar-brand"><img src="./images/indent.png" class="img-responsive"></li>
+				  <!-- logo here -->
+				  <li role="presentation"><a href="./index.html">Home</a></li>
+				  <li role="presentation"><a href="./portfolio.html">Portfolio</a></li>
+				  <li role="presentation"><a href="./services.html">Services</a></li>
+				  <li role="presentation"><a href="./Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
 
 	<main class="container-fluid">
 		<div class="row">
-			<div class="col-xs-10 col-xs-offset-1">
-				<h1>Name of Project</h1>
+			<div class="col-xs-12">
+				<h1>Name of Projec<span>t</span></h1>
 			</div>
 		</div>
 		<!-- row 1 -->
 		<div class="row">
-			<div class="col-xs-8 col-xs-offset-2">
+
+			<!-- next previous FIX -->
+			<ul class="pager hidden-xs">
+				<a href="#"><li class="page previous"><span class="glyphicon glyphicon-chevron-left"></span></li></a>
+				<a href="#"><li class="page next"><span class="glyphicon glyphicon-chevron-right"></span></li></a>
+			</ul>
+
+			<div class="col-xs-12 col-md-10 col-md-offset-1">
 				<img src="http://placehold.it/1080x720" class="img-responsive">
 			</div>
 			<!-- image portfolio -->
 
-			<div class="col-xs-8 col-xs-offset-2 text-center">
+			<div class="col-xs-10 col-xs-offset-1 text-center">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -59,7 +78,11 @@
 
 
 	<footer class="container-fluid">
-		
+		<div class="row">
+			<div class="col-xs-12">
+				<p class="text-center col-xs-12">Copyright &copy; 2017 | John Florentino S. Dunglao</p>
+			</div>
+		</div>
 	</footer>
 
 

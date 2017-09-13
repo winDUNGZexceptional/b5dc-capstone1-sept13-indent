@@ -27,7 +27,7 @@
 
 		<!-- COLORS TO USE 
 		#E27A6A TERRACOTTA - ORANGE?
-		#4D9DEO CAROLINA BLUE - BLUE
+		#4D9DE0 CAROLINA BLUE - BLUE
 		#FBD1A2 TUSCAN - ORANGE SUN
 		#ECE4B7 DUTCH WHITE - BIT YELLOW DARK SUN
 		#7DCFB6 PEARL AQUA - TUBIG SA DAGAT PAG MADUMI NA
@@ -38,17 +38,19 @@
 <body>
 
 	<header class="container-fluid">
-		<div class="col-xs-12">
-			<img src="./images/indent.png" class="img-responsive">
+		<div class="row">
+			<div class="col-xs-12">
+				<img src="./images/indent.png" class="img-responsive">
+			</div>
 		</div>
 		<div class="row">
-			<nav class="col-xs-12 col-sm-12 col-md-8 navigation">
+			<nav class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-lg-offset-3 navigation">
 				<!-- ADD FOR MOBILE AND TABLET HERE -->
 				<ul class="nav nav-pills">
-				  <li role="presentation"><a href="#">Home</a></li>
-				  <li role="presentation"><a href="#">Portfolio</a></li>
-				  <li role="presentation"><a href="#">Services</a></li>
-				  <li role="presentation"><a href="#">Contact</a></li>
+				  <li role="presentation"><a href="./index.html">Home</a></li>
+				  <li role="presentation"><a href="./portfolio.html">Portfolio</a></li>
+				  <li role="presentation"><a href="./services.html">Services</a></li>
+				  <li role="presentation"><a href="./Contact.html">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -58,12 +60,12 @@
 	<main class="container-fluid white">
 		<div class="row text-center white">
 			<h1>Business Problems?</h1>
-			<h3>Challenge accepted</h3>
+			<h3>Challenge accepted!</h3>
 		</div>
 
 		<figure class="row gallery"> <!-- ADD HREF HERE -->
 			<!-- ADD DIV BEFORE IMG SO ANOTHER DIV TO PUT DESCRIPTION HERE -->
-			<a href=" "><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="./portfolio-view.html"><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<div class="back yellow">
 					<h3>Pylon</h3>
 					<p>Bring home the bacon!</p>
@@ -71,7 +73,7 @@
 				<img src="./images/pylon.jpg" class="img-responsive">
 			</div></a>
 
-			<a href=" "><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="./portfolio-view.html"><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<div class="back pearl">
 					<h3>Mabini Campus</h3>
 					<p>This is just normal.</p>
@@ -79,7 +81,7 @@
 				<img src="./images/campus.jpg" class="img-responsive">
 			</div></a>
 
-			<a href=" "><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="./portfolio-view.html"><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<div class="back terra">
 					<h3>Keyboarding Class</h3>
 					<p>Don't have computers? No problem.</p>
@@ -87,7 +89,7 @@
 				<img src="./images/typewriter.jpg" class="img-responsive">
 			</div></a>
 
-			<a href=" "><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="./portfolio-view.html"><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<div class="back blue">
 					<h3>coed office</h3>
 					<p>Goodluck meeting with dean.</p>
@@ -95,7 +97,7 @@
 				<img src="./images/coed.jpg" class="img-responsive">
 			</div></a>
 
-			<a href=" "><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="./portfolio-view.html"><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
 				<div class="back sunOrange">
 					<h3>the team</h3>
 					<p>Siga ng Calamba Street.</p>
@@ -103,7 +105,7 @@
 				<img src="./images/theTeam.jpg" class="img-responsive">
 			</div></a>
 
-			<a href=" "><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="./portfolio-view.html"><div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6">
 			<div class="back pearl">
 				<h3>Unbelievable school</h3>
 				<p>See this in Tagaytay.</p>
@@ -114,13 +116,15 @@
 
 		<hr>
 
-		<div class="row con">
-			<a href="./portfolio.html" target="_blank">
-				<div class="col-xs-12 col-sm-2 col-sm-offset-5 col-lg-2 col-lg-offset-5 card">
-					<div class="face front"><p><span class="glyphicon glyphicon-briefcase"></span><br>View more works!</p></div>
-					<div class="face cardBack"><p><span class="glyphicon glyphicon-briefcase"></span><br>View more works!</p></div>
-				</div>
-			</a>
+		<div class="row con ">
+			<div class="col-xs-12">
+				<a href="./portfolio.html" target="_blank">
+					<div class="col-xs-12 col-xs-offset-0 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5 col-lg-2 col-lg-offset-5 card">
+						<div class="face front"><p><span class="glyphicon glyphicon-briefcase"></span><br>View more works!</p></div>
+						<div class="face cardBack"><p><span class="glyphicon glyphicon-briefcase"></span><br>View more works!</p></div>
+					</div>
+				</a>
+			</div>
 		</div>
 		<!-- row visibility -->
 		<!-- MAKE THIS ONE BACKFACE VISIBILITY TRICK -->
@@ -181,7 +185,7 @@
 	<footer class="container-fluid">
 		<div class="row damnFoot">
 			<!-- FOR SOME REASON I CANT SEE THIS. NEED TO FIX!!! -->
-			<div class="col-xs-12 col-lg-4 rgbaDarkv2">
+			<div class="col-xs-12 col-sm-4 col-lg-4 rgbaDarkv2">
 				<img src="./images/indent.png" class="img-responsive">
 				<h4>Contact indent</h4>
 				<div class="form-group">
@@ -199,22 +203,22 @@
 			<!-- contact col -->
 
 
-			<div class="col-xs-12 col-lg-4 listings">
+			<div class="col-xs-12 col-sm-4 col-lg-4 listings">
 				<h4 class="margin-bot">Want to learn more about indent?</h4>
 
 				<h5>our services</h5>
 
 				<ul>
-					<a href="#"><li>Web Development</li></a>
-					<a href="#"><li>Branding</li></a>
-					<a href="#"><li>Logo Making</li></a>
-					<a href="#"><li>Lorem</li></a>
+					<a href="./services.html"><li>Web Development</li></a>
+					<a href="./services.html"><li>Branding</li></a>
+					<a href="./services.html"><li>Logo Making</li></a>
+					<a href="./services.html"><li>Lorem</li></a>
 				</ul>
 
 			</div>
 
 
-			<div class="col-xs-12 col-lg-4">
+			<div class="col-xs-12 col-sm-4 col-lg-4">
 				<h4>
 				Indent Design Company
 				</h4>
