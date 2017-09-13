@@ -95,7 +95,7 @@ ul li.navbar-brand {
 
 /*main*/
 main h1 {
-	font-size: 70px;
+	font-size: 50px;
 }
 
 iframe {
@@ -143,6 +143,7 @@ footer {
 		transform: translate(-50%, -50%);
 		margin-top: 80px;
 	}
+
 }
 
 @media only screen and (min-width:329px) and (max-width:400px) {
@@ -155,6 +156,7 @@ footer {
 		transform: translate(-50%, -50%);
 		margin-top: 80px;
 	}
+
 }
 
 @media only screen and (min-width:401px) and (max-width:500px) {
@@ -167,6 +169,7 @@ footer {
 		transform: translate(-50%, -50%);
 		margin-top: 80px;
 	}
+
 }
 
 @media only screen and (min-width:501px) and (max-width:767px) {
@@ -238,5 +241,9 @@ footer {
 
 	main.container-fluid {
 		padding: 40px;
+	}
+
+	main h1 {
+		font-size: 75px;
 	}
 }
